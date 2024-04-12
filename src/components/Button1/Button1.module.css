@@ -1,0 +1,11 @@
+.style {
+    color: #222831;
+    font-weight: bolder;
+    background-color: #adadad;
+    transition: filter 0.3s
+}
+
+.style:hover {
+    border: solid #adadad 1px;
+    filter: brightness(1.5)
+}

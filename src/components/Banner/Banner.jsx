@@ -1,5 +1,4 @@
-import { Icon } from "@iconify/react";
-import { Container, Row, Col } from 'react-bootstrap';
+import Button1 from '../Button1/Button1'
 import styles from './Banner.module.css'
 import img1 from '../../assets/img1.png'
 
@@ -14,7 +13,7 @@ export const Banner = () => {
                 <div className={styles.textSide}>
                     <h1>{greetings_en}</h1>
                     <p>{presentation[0]}<br/><br/>{presentation[1]}<br/><br/>{presentation[2]}</p>
-                    <button className={styles.bannerButton}>Let's Connect!</button>
+                    <Button1 buttonText={"Let's Connect!"}/>
                 </div>
                 <div className={styles.imgSide}>
                     <img src={img1} alt='img1div' width={400} className={styles.img1}/>

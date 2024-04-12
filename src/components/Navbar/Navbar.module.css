@@ -81,15 +81,3 @@
     margin-right:10px;
     margin-top: 5px;
 }
-
-.buttonli button {
-    color: #222831;
-    font-weight: bolder;
-    background-color: #adadad;
-    transition: filter 0.3s
-}
-
-.buttonli button:hover {
-    border: solid #adadad 1px;
-    filter: brightness(1.5)
-}
