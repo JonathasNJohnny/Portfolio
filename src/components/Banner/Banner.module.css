@@ -24,6 +24,12 @@ body {
     margin-left: 10%;
 }
 
+.textSide h1 {
+    background: -webkit-linear-gradient(#ce8169, #af6852); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .textSide p {
     text-align: justify;
     text-align-last: center;
