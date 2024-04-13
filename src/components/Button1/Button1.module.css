@@ -1,11 +1,14 @@
 .style {
     color: #222831;
     font-weight: bolder;
-    background-color: #adadad;
-    transition: filter 0.3s
+    transition: filter 0.3s;
+    background: -webkit-linear-gradient(#ce8169, #af6852);
+    
 }
 
 .style:hover {
     border: solid #adadad 1px;
-    filter: brightness(1.5)
+    filter: brightness(1.2);
+    outline: none;
+    border-color: #ce8169;
 }
