@@ -1,0 +1,57 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.banner {
+    text-align: center;
+}
+
+.bannerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.textSide, .imgSide {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.textSide {
+    float: left;
+    margin-left: 10%;
+}
+
+.textSide h1 {
+    background: -webkit-linear-gradient(#ce8169, #af6852); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textSide p {
+    text-align: justify;
+    text-align-last: center;
+    font-weight: 500;
+    font-family: Verdana, Sans-serif;
+}
+
+.imgSide {
+    text-align: right;
+    float: right;
+    margin-right: 10%;
+}
+
+
+.bannerButton {
+    color: #222831;
+    font-weight: bolder;
+    background-color: #adadad;
+    transition: filter 0.3s
+}
+
+.bannerButton:hover {
+    border: solid #adadad 1px;
+    filter: brightness(1.5)
+}
