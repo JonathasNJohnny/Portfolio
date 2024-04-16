@@ -1,6 +1,5 @@
 import Button1 from '../Button1/Button1';
 import styles from './Navbar.module.css';
-import { Icon, InlineIcon } from "@iconify/react";
 import linkedInIcon from '../../assets/linkedInIcon.png'
 import githubIcon from '../../assets/githubIcon.png'
 
